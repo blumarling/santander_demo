@@ -9,7 +9,7 @@ const PagUno = asyncComponent(() => import("./page_one"));
 class App extends Component {
   render() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={'/demo'}>
           <Switch>
             <Route exact path="/" component={PagUno}/>
           </Switch>

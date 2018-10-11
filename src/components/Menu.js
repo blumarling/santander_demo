@@ -21,7 +21,6 @@ class Menu extends Component {
 
   handleScroll = () => {
     var bounding = this.falseMenu.current.getBoundingClientRect()
-    console.log(bounding.top);
     if(bounding.top < 0) {
       this.setState({
         scrolled:true

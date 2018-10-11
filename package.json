@@ -1,6 +1,7 @@
 {
 	"name": "MOAL-Santander_Demo",
 	"version": "0.1.0",
+	"homepage": "http://blumarling.com/demo/",
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",

@@ -18,6 +18,7 @@ class Reveal extends Component {
 
   componentDidMount = () => {
     window.addEventListener('scroll', this.handleScroll)
+    this.handleScroll()
   }
   componentWillUnmount = () => {
     window.removeEventListener('scroll', this.handleScroll)
@@ -40,8 +41,9 @@ class Reveal extends Component {
     }
 
     var speed = this.props.speed || 0.5
+    var delay = parseFloat(this.props.delay) || 0
 
-    TweenMax.fromTo(elementToMove, speed, startingProps, arrivingProps).play()
+    TweenMax.fromTo(elementToMove, speed, startingProps, arrivingProps).delay(delay).play()
   }
 
   handleScroll = () => {
@@ -54,10 +56,8 @@ class Reveal extends Component {
     	bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
     	bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) - offset
     ) {
-    	console.log('In the viewport!');
       this.doAnimate()
     } else {
-    	console.log('Not in the viewport... whomp whomp');
     }
   }
 

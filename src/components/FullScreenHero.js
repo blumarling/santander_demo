@@ -12,7 +12,8 @@ class Menu extends Component {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundImage: `url(${props.src})`
+        backgroundImage: `url(${props.src})`,
+        position: 'relative'
       },
       indicatorProgress: {
         backgroundImage: "url(./static/circle_red.svg)",
@@ -22,6 +23,9 @@ class Menu extends Component {
   }
 
   componentDidMount = () => {
+    setTimeout(() => {
+      window.scroll(0,0)
+    },120)
     window.addEventListener('resize', this.handleResize)
     window.onmousewheel = this.handleScroll
 
@@ -45,7 +49,6 @@ class Menu extends Component {
   }
 
   handleResize = () => {
-    console.log('resizing');
     this.setState({
       heroStyle: assign({}, this.state.heroStyle, {
         height: (window.innerHeight || document.documentElement.clientHeight) - 70
