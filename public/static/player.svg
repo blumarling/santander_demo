@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="362px" height="361px" viewBox="0 0 362 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Player</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Santander-Sch-test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-sch-prestito-personale" transform="translate(-920.000000, -840.000000)">
+            <g id="Video" transform="translate(832.000000, 806.000000)">
+                <g id="Player" transform="translate(189.000000, 137.000000)">
+                    <g id="Group-3">
+                        <g id="Group-Copy-2">
+                            <g id="Group-2" stroke="#FFFFFF">
+                                <circle id="Oval-5" opacity="0.300000012" cx="78.5060976" cy="78.5060976" r="78.5060976"></circle>
+                                <path d="M157.012195,78.5060976 C157.012195,35.1483771 121.863818,0 78.5060976,0" id="Oval-5" stroke-width="6" stroke-linecap="round"></path>
+                            </g>
+                            <text id="PLAY" font-family="OpenSans-Regular, Open Sans" font-size="12" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+                                <tspan x="65.7946519" y="129">PLAY</tspan>
+                            </text>
+                            <circle id="Oval-7" fill="#FFFFFF" cx="79.5266667" cy="79.5266667" r="23.7"></circle>
+                            <polygon id="Triangle" fill="#333333" points="84.2666667 80.0533333 76.8933333 85.32 76.8933333 74.7866667"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

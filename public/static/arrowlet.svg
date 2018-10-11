@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 45</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="scroll-arrow" transform="translate(-182.000000, -20.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Group-45" transform="translate(188.000000, 27.000000) rotate(-270.000000) translate(-188.000000, -27.000000) translate(182.000000, 22.000000)">
+                <path d="M0,5 L12,5" id="Stroke-1"></path>
+                <polyline id="Stroke-3" points="7 0 12 5 7 10"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
